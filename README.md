@@ -31,4 +31,16 @@
        the project, such as the target framework and the list of dependencies.
       ```
 </details>
+<details>
+ <summary>📁 src</summary>
+    <br>
+
+   ***You can put any file or folder here such as:***
+   - Controllers: This folder contains the controller classes that handle HTTP requests and responses. Each controller class corresponds to a specific resource or endpoint in the API.
+Services: This folder contains the service classes that implement the business logic of the application. The service classes are typically used by the controller classes to perform operations such as data access, validation, and authentication.
+   - Models: This folder contains the data models that define the structure of the data that is used by the application. The data models are typically used by the service classes to perform operations such as data access and validation.
+   - Data: This folder contains the data access layer of the application, which is responsible for interacting with the database or other data sources. The data access layer is typically used by the service classes to perform operations such as data access and validation.
+   - Auth: This folder contains the authentication and authorization logic of the application. The authentication and authorization logic is typically used by the controller classes to ensure that only authorized users can access the API.
+  
+</details>
 
