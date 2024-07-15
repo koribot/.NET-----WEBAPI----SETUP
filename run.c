@@ -7,7 +7,6 @@
 #define FLAG "RUN"
 #endif 
 
-
 #define RUN_FLAG "RUN"
 #define WATCH_FLAG "WATCH"
 #define RUN_COMMAND "dotnet run --project "
