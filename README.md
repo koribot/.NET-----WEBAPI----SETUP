@@ -13,6 +13,8 @@
   <summary>📁 Program</summary>
 
   ## Contains
+  - 📁 assets
+    - ***This is where you store staticfiles that will be sent on browser***
   - 📁 obj folder
   - 📁 bin folder
   - 📁 properties folder
