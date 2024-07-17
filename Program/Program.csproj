@@ -12,5 +12,7 @@
   <ItemGroup>
     <Compile Include="..\src\Controllers\**\*.cs" />
     <Compile Include="..\src\Definitions\**\*.cs" />
+    <Watch Include="**\*.js" />
+    <Watch Include="**\*.html" />
   </ItemGroup>
 </Project>
