@@ -20,7 +20,7 @@ public class HelloWorldController : ControllerBase
     [HttpGet]
     public IActionResult Get()
     {
-        var filePath = Path.Combine(_env.ContentRootPath, "../Program/assets/html/hello.html");
+        var filePath = Path.Combine(_env.ContentRootPath, "../Program/assets/html/index.html");
         var content = System.IO.File.ReadAllText(filePath);
         return Content(content, "text/html");
     }
